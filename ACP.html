@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h2>JavaScript Datatypes, Let keyword and loops.</h2>
+        <p id="result"></p>
+        <script>
+            var i; //i is undefined
+            var text = "";
+            {
+                let i = 0; //assigning value fo i only within the block
+                while (i<10) {
+                    text += "The values inside the block: " + i + "<br>";
+                    i++;
+             document.getElementById("result").innerHTML = text;
+                }
+                document.getElementById("The value of i outside the block is: ") +i;
+            }
+        </script>
+    </body>
+</html>
